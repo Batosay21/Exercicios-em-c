@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+int main()
+{
+    float km, hs, total;
+    printf("Digite o valor de km percorrido e quantidade de horas: km,hr ");
+    scanf("%f,%f",&km ,&hs);
+    total=km/hs;
+    if(total>79){
+        printf(" você viajou a mais de 80km por hora");
+    }
+    else
+       printf(" você viajou a menos de 80km por hora");
+    
+
+    return 0;
+}
