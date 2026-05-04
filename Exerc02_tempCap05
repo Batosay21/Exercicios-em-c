@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    float temp;
+    printf("Digie a temperatura(Ex:38.7): ");
+    scanf("%f",&temp);
+    
+    if (temp>37.5)
+        {
+        printf("Esta com febre");
+        }
+    else{
+        printf("Esta normal");
+        }
+
+    return 0;
+}
