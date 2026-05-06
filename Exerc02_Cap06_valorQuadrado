@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+    int i=0;
+    int c=0;
+    while(i<5){
+        i++;
+        c=i*i;
+        printf("o valor do quadrado do numero  %d  é %d \n", i, c);
+    
+    }
+
+
+return 0;}
